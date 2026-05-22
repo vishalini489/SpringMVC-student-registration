@@ -100,7 +100,7 @@
 <div class="card">
 
     <div class="success-header">
-        <div class="emoji">✅</div>
+        <div class="emoji"> </div>
         <h1>Registration Successful!</h1>
         <p>Your details have been saved successfully.</p>
     </div>
@@ -109,23 +109,23 @@
         <tbody>
 
             <tr>
-                <th>👤 Name</th>
+                <th>Name</th>
                 <td><%= session.getAttribute("name") %></td>
             </tr>
 
             <tr>
-                <th>📧 Email</th>
+                <th>Email</th>
                 <td><%= session.getAttribute("email") %></td>
             </tr>
 
             <tr>
-                <th>🔒 Password</th>
-                <%-- Never show real password in UI — display masked --%>
+                <th>Password</th>
+
                 <td><span class="pill">••••••••</span></td>
             </tr>
 
             <tr>
-                <th>🎂 Age</th>
+                <th>Age</th>
                 <td><%= session.getAttribute("age") %> years</td>
             </tr>
 
@@ -135,19 +135,19 @@
             </tr>
 
             <tr>
-                <th>📚 Course</th>
+                <th>Course</th>
                 <td><span class="pill"><%= session.getAttribute("course") %></span></td>
             </tr>
 
             <tr>
-                <th>📅 Date of Birth</th>
+                <th>Date of Birth</th>
                 <td><%= session.getAttribute("dob") %></td>
             </tr>
 
         </tbody>
     </table>
 
-    <a href="${pageContext.request.contextPath}/" class="btn-back">← Register Another Student</a>
+    <a href="${pageContext.request.contextPath}/" class="btn-back">Register Another Student</a>
 
 </div>
 

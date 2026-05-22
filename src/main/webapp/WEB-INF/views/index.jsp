@@ -112,7 +112,7 @@
 
 <div class="card">
     <div class="card-header">
-        <div class="emoji">🎓</div>
+        <div class="emoji"> </div>
         <h1>Student Registration</h1>
         <p>Please fill in all the fields below</p>
     </div>
@@ -173,7 +173,7 @@
             <input type="date" id="dob" name="dob" required/>
         </div>
 
-        <button type="submit" class="btn">Submit Registration →</button>
+        <button type="submit" class="btn">Submit Registration </button>
 
     </form>
 </div>
